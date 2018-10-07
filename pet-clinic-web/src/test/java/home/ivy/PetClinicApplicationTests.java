@@ -1,4 +1,4 @@
-package home.ivy.petclinic;
+package home.ivy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

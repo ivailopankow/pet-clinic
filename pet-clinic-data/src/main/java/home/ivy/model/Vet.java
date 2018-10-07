@@ -1,4 +1,4 @@
-package home.ivy.petclinic.model;
+package home.ivy.model;
 
 public class Vet extends Person {
 }
