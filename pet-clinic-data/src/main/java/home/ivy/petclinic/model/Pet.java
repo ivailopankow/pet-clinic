@@ -1,4 +1,4 @@
-package home.ivy.model;
+package home.ivy.petclinic.model;
 
 import java.time.LocalDate;
 
@@ -8,19 +8,19 @@ public class Pet {
     private Owner owner;
     private LocalDate birthDay;
 
-    public PetType getPetType() {
+    public home.ivy.petclinic.model.PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(PetType petType) {
+    public void setPetType(home.ivy.petclinic.model.PetType petType) {
         this.petType = petType;
     }
 
-    public Owner getOwner() {
+    public home.ivy.petclinic.model.Owner getOwner() {
         return owner;
     }
 
-    public void setOwner(Owner owner) {
+    public void setOwner(home.ivy.petclinic.model.Owner owner) {
         this.owner = owner;
     }
 
