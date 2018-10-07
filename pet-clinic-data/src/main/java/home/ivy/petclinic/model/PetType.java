@@ -1,4 +1,4 @@
 package home.ivy.petclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 }
